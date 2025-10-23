@@ -121,9 +121,9 @@ public class ProductoAgricola {
 
     @Override
     public String toString() {
-        return String.format("Producto Agricola : %n- Código = %s %n- Nombre = %s %n- Precio = %.2f %n- Grupo = %s "
-                + "%n- Cantidad = %d %n- Unidad de medidad = %s %n- Fecha de vencimiento = %s %n- Es exportable = %b", 
-                codigo, nombre, precio, grupo, cantidad, unidadDeMedida, fechaVencimiento, esExportable);
+        return String.format("Producto Agricola : %n- Código = %s %n- Nombre = %s %n- Cantidad = %d %n- Unidad de medidad = %s "
+                + "%n- Precio = %.2f %n- Grupo = %s %n- Fecha de vencimiento = %s %n- Es exportable = %b", 
+                codigo, nombre, cantidad, unidadDeMedida, precio, grupo, fechaVencimiento, esExportable);
     }
     
     

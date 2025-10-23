@@ -27,12 +27,10 @@ public class Main {
         
         
         //Prodcuto usando el constructor
-        ProductoAgricola producto = new ProductoAgricola("AGAC001","Envidor",10,"LTS",15000.0,"Acaricidas","05-02-2026",false);
+        ProductoAgricola producto = new ProductoAgricola("AGAC001","Envidor",10,"LTS",15000.0,
+                "Acaricidas","05-02-2026",false);
         System.out.println("");        
         System.out.println(producto.toString());
         
-        
-        
     }
-    
 }
